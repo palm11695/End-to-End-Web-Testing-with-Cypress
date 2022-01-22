@@ -1,4 +1,5 @@
 {
 "viewportHeight": 700,
-"viewportWidth":763
+"viewportWidth":763,
+"integrationFolder": "cypress/tests"
 }
