@@ -206,7 +206,7 @@
       "bankName": "O'Hara - Labadie Bank",
       "accountNumber": "6123387981",
       "routingNumber": "851823229",
-      "isDeleted": false,
+      "isDeleted": true,
       "createdAt": "2020-05-09T07:57:26.947Z",
       "modifiedAt": "2020-05-21T22:18:50.916Z"
     },
@@ -253,6 +253,83 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
+    },
+    {
+      "id": "7m2l6tSab",
+      "uuid": "18ede5d8-1a81-499a-a472-1a15905b71dc",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": true,
+      "createdAt": "2022-01-24T10:23:24.478Z",
+      "modifiedAt": "2022-01-24T10:23:24.478Z"
+    },
+    {
+      "id": "eC9rBVYtW",
+      "uuid": "4e89f4fe-739d-430c-81d9-833a9ec2c6f4",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": true,
+      "createdAt": "2022-01-24T10:24:23.780Z",
+      "modifiedAt": "2022-01-24T10:24:23.780Z"
+    },
+    {
+      "id": "iXcbGj4St",
+      "uuid": "e802b902-9c0d-4cfe-9b2e-4899efb61c11",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": true,
+      "createdAt": "2022-01-24T10:24:37.089Z",
+      "modifiedAt": "2022-01-24T10:24:37.089Z"
+    },
+    {
+      "id": "kCfvunwzc",
+      "uuid": "b7d0ea57-0060-4798-8af5-41e304f52243",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2022-01-24T10:24:48.639Z",
+      "modifiedAt": "2022-01-24T10:24:48.639Z"
+    },
+    {
+      "id": "C0PcVtG4d",
+      "uuid": "130639a8-5f3c-431c-aab8-abddbdfc2c1d",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2022-01-24T10:27:03.548Z",
+      "modifiedAt": "2022-01-24T10:27:03.548Z"
+    },
+    {
+      "id": "XB2WfQ0f4",
+      "uuid": "6785a01c-3b98-473e-b550-3726bd676aa8",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2022-01-24T10:27:49.333Z",
+      "modifiedAt": "2022-01-24T10:27:49.333Z"
+    },
+    {
+      "id": "4TyyKgCOr",
+      "uuid": "f09a08d4-fda2-46bd-9e7b-a6a013dd15c3",
+      "userId": "t45AiwidW",
+      "bankName": "test bank account",
+      "accountNumber": "12345678910",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2022-01-24T10:32:26.317Z",
+      "modifiedAt": "2022-01-24T10:32:26.317Z"
     }
   ],
   "transactions": [
