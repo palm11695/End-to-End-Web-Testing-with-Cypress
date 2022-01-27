@@ -37,8 +37,8 @@ describe('exercise', () => {
         });
     });
 
-    describe('exercise-2', () => {
-        it.skip('click Friends tab and Mine tab', () => {
+    describe.skip('exercise-2', () => {
+        it('click Friends tab and Mine tab', () => {
             cy.get('[data-test=nav-contacts-tab]').click();
             cy.url().should('contains','contacts');
             cy.get('[data-test=nav-personal-tab]').click();
@@ -48,11 +48,28 @@ describe('exercise', () => {
         });
 
         it('create new transaction', () => {
-            cy.get('[data-test=nav-top-new-transaction]').click();
+            cy.get('[data-test="nav-top-new-transaction"]').click();
             cy.url().should('contains','transaction/new');
-            cy.get('[data-test=user-list-item-qywYp6hS0U]').click();
+            cy.get('[data-test="user-list-item-qywYp6hS0U"]').click();
             cy.get('[data-test="transaction-create-amount-input"]').type(100);
             cy.get('[data-test="transaction-create-description-input"').type('test');
+            cy.get('[data-test="transaction-create-submit-request"]').click();
+            cy.get('[data-test="new-transaction-return-to-transactions"]').click();
+            cy.go('back');
+            cy.url().should('contains','transaction/new');
         });
     });
+
+    describe('exercise-3', () => {
+        it('go to account menu and change name', () => {
+            cy.get('[data-test="sidenav-user-settings"]').click();
+            cy.get('[data-test="user-settings-firstName-input"]').clear().type('CherCheep');
+            cy.get('[data-test="user-settings-lastName-input"]').clear().type('RT');
+            cy.get('[data-test="user-settings-submit"]').click();
+            cy.reload();
+            cy.get('[data-test="user-settings-firstName-input"]').invoke('val').should('eq','Edgar')
+            cy.get('[data-test="user-settings-lastName-input"]').invoke('val').should('eq', 'Johns')
+        });
+    });
+    
 });
